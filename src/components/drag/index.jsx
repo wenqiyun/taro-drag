@@ -2,7 +2,7 @@ import { Image, View } from '@tarojs/components'
 import { useState, useEffect } from 'react'
 import { vibrateShort, pageScrollTo, getSystemInfoSync, useReady } from '@tarojs/taro'
 
-import { compareVersion } from '_utils'
+import { compareVersion } from './utils'
 
 import './index.scss'
 
